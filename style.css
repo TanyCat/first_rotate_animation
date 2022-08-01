@@ -1,0 +1,93 @@
+.body__wrapper {
+    background-color: black;
+
+}
+
+.task__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    position: relative;
+    top: 2rem;
+}
+
+.animation__boll {
+    width: 9rem;
+    height: 9rem;
+    background-repeat: no-repeat;
+}
+
+.animation__boll__text0 {
+    width: 9rem;
+    height: 9rem;
+    background-image: url(./img/graphic_artist.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    animation-name: animation__boll;
+    animation-duration: 20s;
+   
+}
+
+.animation__boll__text {
+    width: 9rem;
+    height: 9rem;
+    background-image: url(./img/inadring.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    animation-name: animation__boll;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+
+.animation__boll__text2 {
+    width: 9rem;
+    height: 9rem;
+    background-image: url(./img/logo_design.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    animation-name: animation__boll;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.animation__boll__text3 {
+    width: 9rem;
+    height: 9rem;
+    background-image: url(./img/the_panovs.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+
+}
+
+.animation__boll__text4 {
+    width: 9rem;
+    height: 9rem;
+    background-image: url(./img/user_interface_design.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    animation-name: animation__boll;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+
+.animation__boll__text4 {
+    width: 9rem;
+    height: 9rem;
+    background-image: url(./img/web_design.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    animation-name: animation__boll;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation__boll {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
